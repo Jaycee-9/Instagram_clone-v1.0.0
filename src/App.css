@@ -1,0 +1,408 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 135px;
+}
+
+.login-photo img {
+  position: relative;
+  bottom: 20px;
+}
+
+.login-form {
+  border: 1px solid rgb(204, 199, 199);
+  width: 320px;
+  height: 370px;
+  margin-left: 25px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-form img {
+  width: 200px;
+  position: relative;
+  left: 60px;
+}
+
+.login-form input {
+  display: flex;
+  height: 15px;
+  background-color: rgb(241, 240, 238);
+  width: 75%;
+  padding: 10px;
+  margin: 4px;
+  margin-left: 28px;
+  border: 1px solid rgb(204, 199, 199);
+}
+
+.login-form button {
+  width: 82%;
+  position: relative;
+  left: 8.6%;
+  padding: 8px;
+  margin-top: 10px;
+  background-color: rgb(141, 158, 241);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.choice {
+  display: flex;
+}
+
+.choice hr {
+  width: 100px;
+}
+
+#google-auths {
+  margin-left: 55px;
+  margin-top: 10px;
+}
+
+.signup-container {
+  border: 1px solid rgb(204, 199, 199);
+  margin-top: 75px;
+  padding: 6px 10px 6px 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  right: 10px;
+}
+.signup-container a {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.applinks {
+  text-align: center;
+}
+
+.applinks a {
+  position: relative;
+  right: 60px;
+  margin: 5px;
+  width: "120px";
+  border-radius: 8px;
+}
+
+#app-icon {
+  width: 100px;
+}
+
+.signup-form {
+  width: 300px;
+  border: 1px solid rgb(161, 155, 155);
+  margin: 10px 0px 0px 43%;
+}
+
+.input-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.input-field img {
+  width: 180px;
+  padding: 40px 0px 20px 60px;
+}
+
+.input-field p {
+  font-family: inherit;
+  font-weight: 500;
+  color: rgb(8, 133, 133);
+  text-align: center;
+  padding: 0px 20px 5px 20px;
+}
+
+.input-field form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-field input {
+  width: 75%;
+  height: 18px;
+  padding: 10px;
+  margin: 10px 0px 10px 25px;
+  font-family: inherit;
+  font-weight: 500;
+  background-color: rgb(241, 240, 238);
+  border: none;
+}
+
+.input-field button {
+  width: 75%;
+  padding: 10px 20px;
+  margin-left: 35px;
+  background-color: rgb(141, 158, 241);
+  color: #fff;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+.footer {
+  display: flex;
+  border: 1px solid rgb(161, 155, 155);
+  width: 300px;
+  margin: 10px 0px 0px 43%;
+  justify-content: center;
+}
+
+.footer a {
+  margin: 16px 0px 0px 10px;
+}
+
+.error {
+  border: 1px solid white;
+  width: 250px;
+  height: 30px;
+  padding: 0px;
+  margin-left: 36px;
+  text-align: center;
+}
+
+.error p {
+  font-size: 14px;
+  word-break: break-all;
+  color: red;
+}
+.navigation-bar {
+  height: 100vh;
+  width: 330px;
+  border-right: 1px solid rgb(233, 228, 228);
+}
+
+.nav-img img {
+  width: 110px;
+  padding: 30px 0px 38px 20px;
+}
+
+.icon {
+  padding-left: 20px;
+}
+
+.icon a {
+  text-decoration: none;
+  color: #000;
+}
+
+#icons {
+  font-size: 30px;
+}
+
+.each-icons,
+.footer-icons,
+.menuItem {
+  display: flex;
+  text-align: center;
+  padding: 10px 5px;
+  margin-bottom: 15px;
+  transition: background-color 0.3s ease; /* Add duration and easing function */
+  height: 30px;
+  width: 90%;
+  border-radius: 10px;
+}
+
+.each-icons p,
+.footer-icons p {
+  padding-left: 13px;
+  position: relative;
+  bottom: 10px;
+}
+
+.each-icons img {
+  padding-left: 3px;
+  padding-right: 3px;
+  width: 25px;
+  height: 25px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.each-icons:hover,
+.footer-icons:hover {
+  background-color: rgba(99, 99, 99, 0.315);
+  cursor: pointer;
+}
+
+.footer-icons {
+  position: relative;
+  top: 400px;
+}
+
+#menuItem {
+  padding-right: 220px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.menuItem {
+  display: flex;
+  width: 220px;
+  justify-content: space-between;
+  height: 20px;
+  margin-bottom: 10px;
+}
+.menuItem p {
+  margin-top: 3px;
+}
+
+.app {
+  display: flex;
+  overflow-y: auto;
+}
+
+.post-dialog-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-dialog-heading {
+  text-align: center;
+  border-bottom: 1px solid rgb(219, 206, 206);
+}
+
+.post-dialog-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-dialog-form img {
+  width: 70px;
+  position: relative;
+  left: 44%;
+  padding: 100px 0px 40px 0px;
+}
+
+.post-dialog-form p {
+  text-align: center;
+  width: 160px;
+  padding: 10px;
+  background-color: rgb(51, 159, 231);
+  border-radius: 20px;
+  transition: background-color 0.2s ease-in;
+  color: #fff;
+  margin-left: 35%;
+  margin-top: 70px;
+}
+
+.post-dialog-form p:hover {
+  background-color: rgb(28, 120, 182);
+  cursor: pointer;
+}
+
+.person-stats {
+  display: flex;
+  padding: 30px;
+  width: 980px;
+  position: relative;
+  left: 28%;
+}
+
+.person-stats-img {
+  padding: 0px 80px 0px 10px;
+}
+
+.person-stats-img img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.person-stats-details {
+  padding-left: 50px;
+}
+.person-stats-toprow {
+  display: flex;
+  padding-bottom: 2px;
+}
+
+.person-stats-toprow p {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 19px;
+  margin-right: 40px;
+}
+.person-stats-toprow button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 14px;
+  margin-right: 40px;
+  height: 30px;
+  margin-top: 15px;
+  border: none;
+  padding: 0px 18px 0px 18px;
+  border-radius: 10px;
+}
+
+.person-stats-toprow button:hover {
+  background-color: rgba(
+    8,
+    85,
+    85,
+    0.247
+  ); /* Replace 'darker-color' with the desired darker background color */
+}
+
+.person-stats-midrow {
+  display: flex;
+}
+
+.person-stats-midrow span {
+  font-family: inherit;
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.person-stats-midrow p {
+  margin-right: 80px;
+}
+
+.edit-conatiner {
+  display: flex;
+  background-color: rgba(236, 235, 233, 0.822);
+  width: 900px;
+  margin-left: 330px;
+  border-radius: 50px;
+}
+
+.edit-conatiner-img {
+  padding: 20px 60px;
+}
+.edit-conatiner-img img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.edit-conatiner-p {
+  padding-top: 60px;
+}
+
+.edit-conatiner span {
+  height: 30px;
+  position: absolute;
+  left: 1350px;
+  top: 250px;
+  width: 160px;
+  background-color: rgb(51, 159, 231);
+  border: none;
+  color: #fff;
+  font-family: inherit;
+  font-weight: 900;
+  border-radius: 20px;
+}
+
+.edit-conatiner span:hover {
+  background-color: rgb(8, 131, 212);
+}
+
+.edit-conatiner h5 {
+  text-align: center;
+  position: relative;
+  bottom: 15px;
+}
